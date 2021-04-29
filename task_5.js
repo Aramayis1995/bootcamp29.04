@@ -15,4 +15,4 @@ function number(a, b, c) {
     console.log(b, c, a);
   }
 }
-number(300, 40, 350);
+number(3, 40, 35);
