@@ -1,10 +1,15 @@
 function number(a, b, c) {
-  if (a * b * c === 0) {
+  if (a === 0 || b === 0 || c === 0) {
     console.log("unsigned");
-  } else if (a * b * c > 0) {
+  } else if (
+    (a > 0 && b > 0 && c > 0) ||
+    (a > 0 && b < 0 && c < 0) ||
+    (b > 0 && a < 0 && c < 0) ||
+    (c > 0 && b < 0 && a < 0)
+  ) {
     console.log("+");
   } else {
     console.log("-");
   }
 }
-number(5, -25, 15);
+number(5, -25, -15);
