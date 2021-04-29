@@ -1,5 +1,5 @@
 function number(n) {
-  if (n === 0 || n === 1) {
+  if (n === 0 || n === 1 || n === 2) {
     console.log("no");
   }
   for (i = 2; i < n; i++) {
@@ -11,4 +11,4 @@ function number(n) {
     }
   }
 }
-number(7);
+number(2);
