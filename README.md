@@ -1,7 +1,9 @@
 ## #HOMEWORK29.04
 
-**Given a sentence as a string. Split it according to space and comma and create an array consisting of the
-words of the array. The last word should not contain the last . or!**
+---
+
+**Given a sentence as a string. Split it according to space and comma and create an array consisting of the**
+**words of the array. The last word should not contain the last . or!**
 
 ```javascript
 function sentens(n) {
@@ -22,6 +24,8 @@ sentens("Keep your friends close,but your enemies closer.");
 ```
 
 ---
+
+**Print the following pyramid**
 
 ```javascript
 function pyramid(n) {
