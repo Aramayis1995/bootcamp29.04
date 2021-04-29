@@ -1,4 +1,7 @@
 function number(n) {
+  if (n === 0 || n === 1) {
+    console.log("no");
+  }
   for (i = 2; i < n; i++) {
     if (n % i === 0) {
       console.log("no");
@@ -8,4 +11,4 @@ function number(n) {
     }
   }
 }
-number(401);
+number(7);
