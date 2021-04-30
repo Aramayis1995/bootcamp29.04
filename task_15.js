@@ -3,7 +3,8 @@ function str(n) {
   for (i = 0; i < n.length; i++) {
     if (arr[0].length < n[i].length) {
       arr[0] = n[i];
-    } else if (arr[1].length > n[i].length) {
+    }
+    if (arr[1].length > n[i].length) {
       arr[1] = n[i];
     }
   }
